@@ -1,4 +1,15 @@
 • What is a gitignore file and what should it include for a Java project?
+gitignore file contains file types that git ignores. The ignored files are not shown in git heirarchy and are not added when we try to add all the files at once.
+
 • What does fast-forward in Git mean?
+fast-forward in git means to point the current branch to the latest commit in the commit heirarchy(of the branch, from which we are trying to pull/(fetch + merge)).
+
 • Why should you have different branches?
+We can have different branches either locally or in the remote repo.
+
+Locally we should have different branches so that we can work on multiple parts of the same code base parallely or keep multiple implementations of the same feature.
+
+In the remote repo, we should have different branches, when multiple people are working on different parts of the code and each part of the code needs to be merged to the main msater branch before deployment.
+
 • In a project how many remote Git repositories do you usually have?
+A project should have a single repository. If a project comprises multiple applications(or sub-projects), then it makes sense to have a separate repository for each individual application.
