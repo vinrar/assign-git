@@ -1,8 +1,8 @@
 • What is a gitignore file and what should it include for a Java project?
-gitignore file contains file types that git ignores. The ignored files are not shown in git heirarchy and are not added when we try to add all the files at once.
+gitignore file contains file types that git will ignore if mentioned in the .gitignore file. The ignored files are not shown in git heirarchy and are not added to stage area even when a user tries to add them.
 
 • What does fast-forward in Git mean?
-fast-forward in git means to point the current branch to the latest commit in the commit heirarchy(of the branch, from which we are trying to pull/(fetch + merge)).
+Fast-forward in git means to point the current branch to the latest commit in the commit heirarchy(of the branch, from which we are trying to pull/(fetch + merge)).
 
 • Why should you have different branches?
 We can have different branches either locally or in the remote repo.
