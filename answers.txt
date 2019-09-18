@@ -7,7 +7,7 @@ Fast-forward in git means to point the current branch to the latest commit in th
 • Why should you have different branches?
 We can have different branches either locally or in the remote repo.
 
-Locally we should have different branches so that we can work on multiple parts of the same code base parallely or keep multiple implementations of the same feature.
+Locally we should have different branches so that we can work on multiple user stories of the same code base parallely or keep multiple implementations of the same feature.
 
 In the remote repo, we should have different branches, when multiple people are working on different parts of the code and each part of the code needs to be merged to the main msater branch before deployment.
 
